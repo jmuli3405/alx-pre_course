@@ -1,0 +1,11 @@
+#!/bin/bash
+#pushing files to git hub
+
+file=$1
+message=$2
+
+git add .
+
+git commit -m '$message'
+
+git push
